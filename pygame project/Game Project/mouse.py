@@ -1,5 +1,4 @@
 
-
 def scale(pos, formSize, toSize):
     return [int(pos[i] * toSize[i] / formSize[i]) for i in range(2)]
 
